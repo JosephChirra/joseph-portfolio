@@ -1,0 +1,36 @@
+.about {
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: var(--bg--color);
+    padding: 15vh 20vh;
+    color: var(--font--color);
+    display: flex;
+}
+.about-logo {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    height: 80vh;
+    border: 2px solid white;
+    font-size: 40px;
+    box-shadow: 0 0 20px white;
+}
+.about-logo h2 {
+    padding-top: 20px;
+}
+.about-content {
+    color: white;
+    margin-left: 10%;
+}
+.about-content-desc {
+    line-height: 40px;
+    text-indent: 15em;
+    margin-top: 10%;
+}
+.about-content-desc span {
+    color: #0ef;
+}
+
+@media only screen and (max-width: 768px) {
+    /* Styles for devices with width 768px or less go here */
+  }
+  

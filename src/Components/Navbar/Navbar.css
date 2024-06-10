@@ -1,0 +1,82 @@
+body{
+    color: rgb(255, 255, 255);
+    height: auto;
+    max-width: 100%;
+    padding: 0rem;
+}
+.navbar{
+    background: rgb(30, 30, 30);
+    height: 5rem;
+    width: 100%;
+    margin: 0 0rem;
+    padding: 1rem 25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    z-index: 3;
+    color: aqua;
+}
+.desktopMenuImg{
+    color: white;
+}
+.logo{
+    object-fit: cover;
+    height: 50px;
+    width: 60px;
+}
+.desktopMenu{
+    margin: 1rem;
+    color: green;
+
+}
+.desktopMenuItem{
+    font-size: larger;
+    font-weight: bolder;
+    color: aqua;
+    cursor: pointer;
+    margin: 1rem
+}
+.desktopMenuItem:hover{
+    color: yellowgreen;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.active{
+    columns: greenyellow;
+    padding-bottom: 0.5rem;
+    border-radius: greenyellow;
+}
+
+.desktopMenuImg{
+    
+    object-fit: cover;
+    height: 1rem;
+    width: 1rem;
+    margin: 1rem;
+}
+
+.desktopMenu:hover{
+    transition: 1s;
+}
+@media only screen and (max-width: 768px) {
+    /* Styles for devices with width 768px or less go here */
+    body{
+        height: auto;
+        max-width: 100%;
+
+    }
+    .navbar{
+        background: rgb(30, 30, 30);
+        height: 5rem;
+        width: 100%;
+        margin: 0 0rem;
+        padding: 1rem 1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 3;
+        color: aqua;
+    }
+  }
+  
