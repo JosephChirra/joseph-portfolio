@@ -1,8 +1,15 @@
-# React + Vite
+## Project Overview
+This dynamic portfolio website is built using ReactJS and CSS to showcase frontend development skills and projects. It features a modern design with smooth sliding animations and an appealing color scheme.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
+- **ReactJS Framework**: Utilizes the power of ReactJS for efficient rendering and state management.
+- **Smooth Animations**: Implements sliding animations for a fluid user experience.
+- **Design Aesthetics**: Employs a carefully chosen color scheme to enhance visual appeal.
+- **Anchor Tags**: Includes anchor tags for easy navigation throughout the site.
 
-Currently, two official plugins are available:
+## Technologies Used
+- ReactJS
+- CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How It Works
+The portfolio website is structured with React components, each representing different sections of the site. CSS is used to style the components and implement the sliding animations. Anchor tags are used to enable smooth scrolling between sections.
